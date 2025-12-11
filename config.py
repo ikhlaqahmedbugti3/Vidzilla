@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Временная директория для хранения загруженных видео
 TEMP_DIRECTORY = os.path.join(BASE_DIR, "temp_videos")
-BOT_TOKEN = os.getenv("8489761244:AAFGPYTY32WQ7-dPeoE5RmbCE9t7lhDdiF4")
+BOT_TOKEN = os.getenv("8489761244:AAGQrVyCXIL36wjUmAw3ymJOTqBnGWdjTxY")
 
 # Server configuration
 PORT = int(os.getenv("PORT", "8000"))  # Default port 8000 if not specified
